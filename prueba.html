@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WikiURSS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+
+
+        header {
+            background-color: #cc0000;
+            color: rgb(255, 238, 3);
+            padding: 10px;
+            font-size: 24px;
+        }
+
+
+        button {
+            background-color: #cc0000;
+            color: rgb(255, 255, 255);
+            padding: 20px 10px;
+            font-size: 20px;
+            border: none;
+            cursor: pointer;
+            margin: 20px;
+        }
+
+
+        button:hover {
+            background-color: #990000;
+        }
+
+
+        #gatoComunista {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+
+
+    <header>
+        WikiURSS
+    </header>
+
+
+    <!-- Botones interactivos -->
+    <button onclick="mostrarBienvenida()">Bienvenido</button>
+    <button onclick="mostrarExplicacion()">EXPLICASAO</button>
+
+
+    <!-- Imagen del gato comunista -->
+    <img id="gatoComunista" src="cat.jpg" alt="Gato Comunista">
+
+
+    <script>
+        function mostrarBienvenida() {
+            alert("¡Bienvenido a la insana comunidad de WikiURSS!");
+        }
+
+
+        function mostrarExplicacion() {
+            alert("La historia del comunismo es compleja y abarca diversas etapas, teorías y aplicaciones en todo el mundo. Surgió en el siglo XIX con las obras de Karl Marx y Friedrich Engels, quienes propusieron un sistema sin clases y la propiedad colectiva. Durante el siglo XX, el comunismo se materializó en regímenes notables como la Revolución Rusa (1917) que llevó al establecimiento de la Unión Soviética, liderada por el Partido Comunista. Otros países adoptaron formas de comunismo, como China y Cuba. Sin embargo, las prácticas autoritarias y los desafíos económicos llevaron a críticas y conflictos, y en la década de 1990, muchos regímenes comunistas colapsaron, marcando el fin de una era. A pesar de las diversas implementaciones y críticas, el comunismo sigue siendo un tema influyente y debatido en la actualidad.");
+        }
+    </script>
+
+
+</body>
+</html>
